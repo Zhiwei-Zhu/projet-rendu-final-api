@@ -1,0 +1,32 @@
+body{
+    background-image:url('');
+}
+
+
+h1{
+    text-align: center;
+    color:blue;
+}
+
+.navbar-brand{
+    float: left;
+}
+
+h1{
+    padding-top: 15%;
+}
+
+.nav-link{
+    margin-left: 80px;
+    font-size: 24px;
+}
+
+.demarrer{
+    text-align: center;
+    padding-top: 3%;
+}
+
+.recherche{
+    padding-top: 5%;
+}
+
