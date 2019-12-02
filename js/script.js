@@ -1,19 +1,13 @@
+document.addEventListener('DOMContentLoaded',function () {
+    const apiURL = 'https://pokeapi.co/api/v2/pokemon/';
+    document.getElementById("but").addEventListener('click',function () {
+        let input = 'ditto'
+        let url = apiURL+input
+        fetch(url).then(function (resp) {return resp.json()}).then(function (data) {
+            
 
-function getAPIData() {
-    const xhr = new XMLHttpRequest()
-    xhr.onreadystatechange = function () {
-        if (xhr.readyState === 4){
-            const data = JSON.parse(xhr.responseText);
+        })
 
-            }
+    });
 
-        }
-    }
-    xhr.open('GET', 'https://api-ratp.pierre-grimaud.fr/v4/traffic');
-    xhr.send()
-}
-
-
-
-
-getAPIData()
+});
