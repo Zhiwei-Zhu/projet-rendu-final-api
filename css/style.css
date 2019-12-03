@@ -1,5 +1,6 @@
 body{
     background-image:url('');
+    font-size: 20px;
 }
 
 
@@ -29,4 +30,78 @@ h1{
 .recherche{
     padding-top: 5%;
 }
+.item-types{
+    margin-top: 20px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+.pokemon h3{
+    margin-top: 10px;
+}
 
+.movedesc{
+    padding: 10px;
+    border: dashed;
+    border-color:gray;
+}
+.grass{
+    background-color: lightgreen;
+}
+.normal{
+    background-color: lightgray;
+}
+.fighting{
+    background-color: darkred;
+}
+.flying{
+    background-color: lightskyblue;
+}
+.poison{
+    background-color: purple;
+}
+.ground{
+    background-color: sandybrown;
+}
+.rock{
+    background-color: saddlebrown;
+}
+.bug{
+    background-color: darkseagreen;
+}
+.ghost{
+    background-color: mediumpurple;
+}
+.steel{
+    background-color: slategray;
+}
+.fire{
+    background-color: orangered;
+}
+.water{
+    background-color: cornflowerblue;
+}
+.electric{
+    background-color: lightgoldenrodyellow;
+}
+.psychic{
+    background-color: hotpink;
+}
+.ice{
+    background-color: lightblue;
+}
+.dragon{
+    background-color: darkslateblue;
+}
+.dark{
+    background-color: dimgray;
+}
+.fairy{
+    background-color: deeppink;
+}
+.unknown{
+    background-color: dimgray;
+}
+.shadow{
+    background-color: black;
+    color: white;
+}
