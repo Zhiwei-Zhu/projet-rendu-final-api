@@ -25,13 +25,54 @@
         </nav>
     </header>
 
-    <div class="container-fluid">
-        <div class="row justify-content-center recherche">
-            <input type="text" class="form-control text-center col-4" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping" id="recherchepoke">
-        </div>
-        <div class="row-align-items-center demarrer">
-                <button type="button" class="btn btn-primary" id="buttonpoke">Let's Go</button>
+    <div class="container">
+        <h1>Index of Pokemon</h1>
+        <div class="jumbotron">
+            <div class="row justify-content-center recherche">
+                <input type="text" class="form-control text-center col-4" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping" id="recherchepoke">
             </div>
+            <div class="row-align-items-center demarrer">
+                <button type="button" class="btn btn-primary" id="buttonpoke">Let's Go</button>
+                <button type="button" class="btn btn-primary" onclick="location.reload()">Refrech</button>
+            </div>
+        </div>
+
+        <hr>
+        <div class="row pokemon">
+            <div class="col-sm-12 text-center">
+                <h2 id="name"></h2>
+            </div>
+            <div class="col-sm-6">
+                <h3 id="type"></h3>
+                <div class="row types">
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="images">
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <h3 id="ability"></h3>
+                <div class="row abilities">
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <h3 id="item"></h3>
+                <div class="row items">
+                </div>
+            </div>
+            <div class="col-sm-12">
+                <h3 id="move"></h3>
+                <div class="row moves">
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+    </div>
     </div>
  
 
