@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale= 1.0" >
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+    <title>Pokémon</title>
+</head>
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="index.html">Accueil</a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="pokemon.html">Pokémon<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="">MHW</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1>Index of Monster Hunter World</h1>
+        <div class="jumbotron">
+            <div class="row justify-content-center recherche">
+                <input type="text" class="form-control text-center col-4" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping" id="recherchemhw">
+            </div>
+            <div class="row-align-items-center demarrer">
+                <button type="button" class="btn btn-primary" id="buttonmhw">Let's Go</button>
+                <button type="button" class="btn btn-primary" onclick="location.reload()">Refrech</button>
+            </div>
+        </div>
+
+        <hr>
+        <div class="row MHW">
+            <div class="col-sm-12 text-center">
+                <h2 id="name"></h2>
+            </div>
+            <div class="col-sm-6">
+                <h3 id="type"></h3>
+                <div class="row types">
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="images">
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <h3 id="ability"></h3>
+                <div class="row abilities">
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <h3 id="item"></h3>
+                <div class="row items">
+                </div>
+            </div>
+            <div class="col-sm-12">
+                <h3 id="move"></h3>
+                <div class="row moves">
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+    </div>
+    </div>
+ 
+
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/script.js"></script>
