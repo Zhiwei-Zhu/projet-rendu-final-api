@@ -73,7 +73,7 @@ document.addEventListener('DOMContentLoaded',function () {
                         ress.innerHTML +="<div class='col-sm-12'>This monster doesn't give any rewards</div>"
                     }else {
                         for (let i = 0; i < rewlg; i++) {
-                            document.getElementById('rew').innerText = "Resistances";
+                            document.getElementById('rew').innerText = "Rewards";
                             let rews = document.querySelector('.rews')
                             rews.innerHTML +="<div class='col-sm-12'>"+data.rewards[i].item.name+"("+data.rewards[i].item.rarity+"★):</div>"+
                                 "<div class='col-sm-12'>"+data.rewards[i].item.description+"</div>"
