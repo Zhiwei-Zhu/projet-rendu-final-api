@@ -1,15 +1,13 @@
 document.addEventListener('DOMContentLoaded',function () {
+    //POKEMON API
     const apiURL = 'https://pokeapi.co/api/v2/pokemon/';
         document.getElementById("buttonpoke").addEventListener("click", function(){
             let input = document.getElementById('recherchepoke').value;
             if (input.length == 0){
                 alert("couldn't find the pokemon")
             } else {
-                let a =input
                 let url = apiURL + input;
-                fetch(url).then(function (resp) {
-                    return resp.json()
-                }).then(function (data) {
+                fetch(url).then(function (resp) {return resp.json()}).then(function (data) {
                     console.log(data);
                     let name = document.getElementById('name');
                     name.innerText = data.species.name;
@@ -85,5 +83,6 @@ document.addEventListener('DOMContentLoaded',function () {
 
                 })
             }
+
     });
 });
