@@ -3,14 +3,23 @@ body{
     font-size: 20px;
 }
 
+.fondpoke{
+    position: absolute;
+}
+
+.jumbotron{
+    position: relative;
+    opacity:0%;
+}
+
 
 h1{
     text-align: center;
-    color:blue;
-}
-h1{
+    color:white;
+    position: relative;
     padding-top: 15%;
 }
+
 
 .nav-link{
     margin-left: 80px;
