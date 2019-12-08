@@ -1,6 +1,8 @@
-body{
-    background-image:url('');
-    font-size: 20px;
+
+
+.accueil{
+    background-image:url('../img/fondaccueil.jpg'); 
+    background-size: cover;
 }
 
 .bodypokemon{
