@@ -67,7 +67,7 @@ document.addEventListener('DOMContentLoaded',function () {
                     if(ablenght !==0){
                     for (let h = 0; h < movelenght; h++) {
                         let move = data.moves[h].move
-                        document.getElementById('move').innerText = "Move";
+                        document.getElementById('move').innerText = "Moves";
                         let moves = document.querySelector('.moves')
                         fetch(move.url).then(function (resp) {return resp.json()}).then(function (data3) {
                             moves.innerHTML += '<div class="col-sm-12"><div class="item-moves"><b>' + move.name + ':</b></div>' +
