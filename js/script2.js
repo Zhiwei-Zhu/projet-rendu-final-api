@@ -11,7 +11,6 @@ document.addEventListener('DOMContentLoaded',function () {
                 let id =getid(input,datas)
                 let url = MHWURL +'/'+id;
                 fetch(url).then(function (resp) {return resp.json()}).then(function (data) {
-                    console.log(data);
                     //NAME
                     let name = document.getElementById('name');
                     name.innerText = data.name;
