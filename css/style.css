@@ -49,6 +49,26 @@
     background-color:rgb(148, 255, 148);
 }
 
+.btn4{
+    background-color:#e41162;
+    margin-top: 20%;
+    margin-left: 32.5px;
+}
+
+.btn5{
+    background-color:lightgreen;
+    margin-top: 20%;
+    margin-left: 25px;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: slategrey;
+}
+
 h1{
     text-align: center;
     position: relative;
@@ -58,6 +78,10 @@ h1{
 
 .mhtitre{
     color:lightgreen;
+}
+
+.poketitre{
+    color:slategray;
 }
 
 .nav-link{
