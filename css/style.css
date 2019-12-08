@@ -7,11 +7,13 @@
 
 .bodypokemon{
     background: linear-gradient(125deg,#05b1f0,white,#e41162);
+    margin-bottom: 15%;
 }
 
 .monsterH{
     background:linear-gradient(150deg,black,grey);
     color: white;
+    margin-bottom: 15%;
 }
 
 .fondpoke{
@@ -147,10 +149,3 @@ h1{
     color: white;
 }
 
-.pokemon{
-    margin-top: 175px;
-}
-
-.MHW{
-    margin-top: 175px;
-}
